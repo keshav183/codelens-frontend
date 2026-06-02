@@ -45,7 +45,7 @@ const Navbar = () => {
             onClick={() => { logout(); navigate("/login"); }}
             className="p-1.5 rounded-md text-muted hover:text-soft hover:bg-panel transition-colors"
           >
-            <LogOut size={13} />
+            Log-out 
           </button>
         </div>
       </div>
