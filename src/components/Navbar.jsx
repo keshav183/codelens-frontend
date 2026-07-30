@@ -21,7 +21,7 @@ const Navbar = () => {
         <nav className="flex items-center gap-0.5">
           {[
             { to: "/review", icon: Code2, label: "Review" },
-            { to: "/pr", icon: GitPullRequest, label: "PR Review" },
+           //{ to: "/pr", icon: GitPullRequest, label: "PR Review" },
             { to: "/history", icon: History, label: "History" },
           ].map(({ to, icon: Icon, label }) => (
             <Link key={to} to={to}
